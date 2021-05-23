@@ -14,7 +14,17 @@
 		846CC2CF265A6491007EDC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846CC2CE265A6491007EDC4F /* Assets.xcassets */; };
 		846CC2D2265A6491007EDC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846CC2D0265A6491007EDC4F /* LaunchScreen.storyboard */; };
 		846CC2DD265A6492007EDC4F /* TheDeltaStudioDealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2DC265A6492007EDC4F /* TheDeltaStudioDealsTests.swift */; };
-		846CC2E8265A6492007EDC4F /* TheDeltaStudioDealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2E7265A6492007EDC4F /* TheDeltaStudioDealsUITests.swift */; };
+		846CC2FA265A66BE007EDC4F /* String+StrikeThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2F9265A66BE007EDC4F /* String+StrikeThrough.swift */; };
+		846CC2FC265A6780007EDC4F /* DealsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2FB265A6780007EDC4F /* DealsPresenter.swift */; };
+		846CC2FE265A6FC5007EDC4F /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2FD265A6FC5007EDC4F /* Deal.swift */; };
+		846CC300265A6FFD007EDC4F /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC2FF265A6FFD007EDC4F /* DealsViewController.swift */; };
+		846CC303265A7121007EDC4F /* DealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC301265A7121007EDC4F /* DealTableViewCell.swift */; };
+		846CC304265A7121007EDC4F /* DealTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846CC302265A7121007EDC4F /* DealTableViewCell.xib */; };
+		846CC306265A74D3007EDC4F /* DealsInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC305265A74D3007EDC4F /* DealsInfoPresenter.swift */; };
+		846CC308265A765B007EDC4F /* DealInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC307265A765B007EDC4F /* DealInfo.swift */; };
+		846CC30A265A7697007EDC4F /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC309265A7697007EDC4F /* Info.swift */; };
+		846CC30C265A7798007EDC4F /* DealInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC30B265A7798007EDC4F /* DealInfoViewController.swift */; };
+		846CC313265A8169007EDC4F /* TheDeltaStudioDealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CC311265A8169007EDC4F /* TheDeltaStudioDealsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +57,18 @@
 		846CC2DC265A6492007EDC4F /* TheDeltaStudioDealsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDeltaStudioDealsTests.swift; sourceTree = "<group>"; };
 		846CC2DE265A6492007EDC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846CC2E3265A6492007EDC4F /* TheDeltaStudioDealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheDeltaStudioDealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		846CC2E7265A6492007EDC4F /* TheDeltaStudioDealsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDeltaStudioDealsUITests.swift; sourceTree = "<group>"; };
-		846CC2E9265A6492007EDC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846CC2F9265A66BE007EDC4F /* String+StrikeThrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+StrikeThrough.swift"; sourceTree = "<group>"; };
+		846CC2FB265A6780007EDC4F /* DealsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsPresenter.swift; sourceTree = "<group>"; };
+		846CC2FD265A6FC5007EDC4F /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		846CC2FF265A6FFD007EDC4F /* DealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		846CC301265A7121007EDC4F /* DealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealTableViewCell.swift; sourceTree = "<group>"; };
+		846CC302265A7121007EDC4F /* DealTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealTableViewCell.xib; sourceTree = "<group>"; };
+		846CC305265A74D3007EDC4F /* DealsInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsInfoPresenter.swift; sourceTree = "<group>"; };
+		846CC307265A765B007EDC4F /* DealInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealInfo.swift; sourceTree = "<group>"; };
+		846CC309265A7697007EDC4F /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		846CC30B265A7798007EDC4F /* DealInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealInfoViewController.swift; sourceTree = "<group>"; };
+		846CC311265A8169007EDC4F /* TheDeltaStudioDealsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheDeltaStudioDealsUITests.swift; sourceTree = "<group>"; };
+		846CC312265A8169007EDC4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +101,7 @@
 			children = (
 				846CC2C4265A6488007EDC4F /* TheDeltaStudioDeals */,
 				846CC2DB265A6492007EDC4F /* TheDeltaStudioDealsTests */,
-				846CC2E6265A6492007EDC4F /* TheDeltaStudioDealsUITests */,
+				846CC310265A8169007EDC4F /* TheDeltaStudioDealsUITests */,
 				846CC2C3265A6488007EDC4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +119,13 @@
 		846CC2C4265A6488007EDC4F /* TheDeltaStudioDeals */ = {
 			isa = PBXGroup;
 			children = (
-				846CC2C5265A6489007EDC4F /* AppDelegate.swift */,
+				846CC30D265A7E96007EDC4F /* MVP */,
+				846CC2F8265A6558007EDC4F /* Utilities */,
 				846CC2C7265A6489007EDC4F /* SceneDelegate.swift */,
+				846CC2C5265A6489007EDC4F /* AppDelegate.swift */,
 				846CC2C9265A6489007EDC4F /* ViewController.swift */,
 				846CC2CB265A6489007EDC4F /* Main.storyboard */,
+				846CC302265A7121007EDC4F /* DealTableViewCell.xib */,
 				846CC2CE265A6491007EDC4F /* Assets.xcassets */,
 				846CC2D0265A6491007EDC4F /* LaunchScreen.storyboard */,
 				846CC2D3265A6491007EDC4F /* Info.plist */,
@@ -119,11 +142,58 @@
 			path = TheDeltaStudioDealsTests;
 			sourceTree = "<group>";
 		};
-		846CC2E6265A6492007EDC4F /* TheDeltaStudioDealsUITests */ = {
+		846CC2F5265A6509007EDC4F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				846CC2E7265A6492007EDC4F /* TheDeltaStudioDealsUITests.swift */,
-				846CC2E9265A6492007EDC4F /* Info.plist */,
+				846CC2FB265A6780007EDC4F /* DealsPresenter.swift */,
+				846CC305265A74D3007EDC4F /* DealsInfoPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		846CC2F6265A6517007EDC4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846CC2FF265A6FFD007EDC4F /* DealsViewController.swift */,
+				846CC30B265A7798007EDC4F /* DealInfoViewController.swift */,
+				846CC301265A7121007EDC4F /* DealTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846CC2F7265A6533007EDC4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846CC2FD265A6FC5007EDC4F /* Deal.swift */,
+				846CC307265A765B007EDC4F /* DealInfo.swift */,
+				846CC309265A7697007EDC4F /* Info.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846CC2F8265A6558007EDC4F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				846CC2F9265A66BE007EDC4F /* String+StrikeThrough.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		846CC30D265A7E96007EDC4F /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				846CC2F7265A6533007EDC4F /* Model */,
+				846CC2F6265A6517007EDC4F /* View */,
+				846CC2F5265A6509007EDC4F /* Presenter */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		846CC310265A8169007EDC4F /* TheDeltaStudioDealsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846CC311265A8169007EDC4F /* TheDeltaStudioDealsUITests.swift */,
+				846CC312265A8169007EDC4F /* Info.plist */,
 			);
 			path = TheDeltaStudioDealsUITests;
 			sourceTree = "<group>";
@@ -234,6 +304,7 @@
 				846CC2D2265A6491007EDC4F /* LaunchScreen.storyboard in Resources */,
 				846CC2CF265A6491007EDC4F /* Assets.xcassets in Resources */,
 				846CC2CD265A6489007EDC4F /* Main.storyboard in Resources */,
+				846CC304265A7121007EDC4F /* DealTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846CC300265A6FFD007EDC4F /* DealsViewController.swift in Sources */,
 				846CC2CA265A6489007EDC4F /* ViewController.swift in Sources */,
+				846CC2FC265A6780007EDC4F /* DealsPresenter.swift in Sources */,
+				846CC303265A7121007EDC4F /* DealTableViewCell.swift in Sources */,
+				846CC30C265A7798007EDC4F /* DealInfoViewController.swift in Sources */,
 				846CC2C6265A6489007EDC4F /* AppDelegate.swift in Sources */,
+				846CC2FE265A6FC5007EDC4F /* Deal.swift in Sources */,
+				846CC306265A74D3007EDC4F /* DealsInfoPresenter.swift in Sources */,
+				846CC2FA265A66BE007EDC4F /* String+StrikeThrough.swift in Sources */,
 				846CC2C8265A6489007EDC4F /* SceneDelegate.swift in Sources */,
+				846CC308265A765B007EDC4F /* DealInfo.swift in Sources */,
+				846CC30A265A7697007EDC4F /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846CC2E8265A6492007EDC4F /* TheDeltaStudioDealsUITests.swift in Sources */,
+				846CC313265A8169007EDC4F /* TheDeltaStudioDealsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,11 @@ This project using sample API's from  site
 (https://apidocs.cheapshark.com/#b9b738bf-2916-2a13-e40d-d05bccdce2ba)
 
 ## Run Application
-1.The IDE is xcode 12.5
+1.The IDE is xcode 12.5 macOS Big Sur
+
+Run and Build the App:
+
+Run the application with the selected iPhone Simulators from Xcode.
 
 
 ## Links, Resources and References
